@@ -1,0 +1,18 @@
+In JavaScript,  Everything happens inside an Execution Context.
+
+Whenever, we run a JS Program, a Global Execution Context gets created and pushed into the Call Stack.
+
+An Execution Context has two components - memory and code.
+
+Memory Component is also called as Variable Environment.
+
+Code Component is called as Thread of Execution.
+
+On running the JS Program, JS Engine allocates memory to all the variables and functions 
+inside the JS Program. Also, it initializes the variables with undefined however function 
+values are stored as it is.
+
+After allocation of memory, it starts the thread of execution and make necessary changes to the 
+variables or display the values in log.
+
+After the complete execution of code, Execution Context gets deleted and popped out of the Call Stack.
